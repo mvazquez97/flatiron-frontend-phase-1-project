@@ -1,3 +1,19 @@
 body {
     background-color: rgb(162, 202, 16);
 }
+* {
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+.container {
+    background: #f80808;
+    color: #fff;
+    padding: 2rem;
+    width: 70%;
+    margin: 4rem auto;
+    border-radius: 40px;
+}
