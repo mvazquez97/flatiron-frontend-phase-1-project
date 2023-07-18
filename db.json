@@ -1,0 +1,19 @@
+{
+    "cities": [
+        {
+            "name": "new york", 
+            "currentWeather": "sunny",
+            "temperature": 76
+        },
+        {
+            "name": "miami", 
+            "currentWeather": "cloudy",
+            "temperature": 62
+        },
+        {
+            "name": "los angeles", 
+            "currentWeather": "rainy",
+            "temperature": 58
+        }
+    ]
+}
