@@ -17,3 +17,16 @@ body {
     margin: 4rem auto;
     border-radius: 40px;
 }
+.weather-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    border: none;
+    background: #fafafa;
+    outline: none;
+    color: #2c282800;
+    padding: 0.3rem 2.3rem;
+}
