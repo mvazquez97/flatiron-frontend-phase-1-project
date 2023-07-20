@@ -24,6 +24,21 @@
             "name": "Atlanta", 
             "currentWeather": "thunderstorm",
             "temperature": 40
+        },
+        {
+            "name": "Seoul", 
+            "currentWeather": "sunny",
+            "temperature": 76
+        },
+        {
+            "name": "Tokyo", 
+            "currentWeather": "sunny",
+            "temperature": 76
+        },
+        {
+            "name": "Tustin", 
+            "currentWeather": "sunny",
+            "temperature": 76
         }
     ]
 }
