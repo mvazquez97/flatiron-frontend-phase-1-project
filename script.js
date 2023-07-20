@@ -11,10 +11,11 @@ cityName=event.target.value
 }
 
 
-
+// adds event listener for search button click
  let searchBtn = document.querySelector(".search-button")
  searchBtn.addEventListener("click", getData);
 
+// alerts when data does not match db.json
 
 function getData() {
   if(!cityName){
