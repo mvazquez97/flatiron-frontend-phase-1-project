@@ -2,43 +2,45 @@
     "cities": [
         {
             "name": "New York", 
-            "currentWeather": "sunny",
-            "temperature": 76
+            "currentWeather": "Sunny",
+            "temperature": 76,
+            "date": "Monday July 13, 2020"
         },
         {
             "name": "Miami", 
-            "currentWeather": "cloudy",
+            "currentWeather": "Cloudy",
             "temperature": 62
+            
         },
         {
             "name": "Los Angeles", 
-            "currentWeather": "rainy",
+            "currentWeather": "Rainy",
             "temperature": 58
         },
         {
             "name": "Chicago", 
-            "currentWeather": "snowing",
+            "currentWeather": "Snowing",
             "temperature": 30
         },
         {
             "name": "Atlanta", 
-            "currentWeather": "thunderstorm",
+            "currentWeather": "Thunderstorm",
             "temperature": 40
         },
         {
             "name": "Seoul", 
-            "currentWeather": "sunny",
-            "temperature": 76
+            "currentWeather": "Cloudy",
+            "temperature": 54
         },
         {
             "name": "Tokyo", 
-            "currentWeather": "sunny",
-            "temperature": 76
+            "currentWeather": "Partly Cloudy",
+            "temperature":58
         },
         {
             "name": "Tustin", 
-            "currentWeather": "sunny",
-            "temperature": 76
+            "currentWeather": "Hail",
+            "temperature": 42
         }
     ]
 }

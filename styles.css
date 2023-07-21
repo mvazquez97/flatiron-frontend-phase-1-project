@@ -28,5 +28,37 @@ input {
     background: #fafafa;
     outline: none;
     color: #2c2828fa;
-    padding: 0.3rem 2.3rem;
+    padding: 0.3rem; 
+    border-radius: 5px;
+}
+.weather-search {
+    position: relative;
+}
+
+input::placeholder {
+    color:fff;
+
+}
+.weather-units span {
+    cursor:pointer;
+}
+
+.weather-search i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 12px;
+    color:#fafafa;
+
+}
+
+.weather-units span:first-child {
+    margin-right: 0.8rem;
+}
+.weather-body {
+    text-align: center;
+    margin-top: 5rem;
+}
+.weather-date-time {
+    
 }
