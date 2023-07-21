@@ -21,10 +21,12 @@ function getData() {
   if(!cityName){
     return alert('please enter city name')
   }
-    fetch("/db.json")
+    fetch("http://localhost:3000/cities")
     .then(response => response.json())
     .then(json => {
-      let cities=json.cities;
+      let cities=json;
+      console.log(json)
+      
       let city=cities.filter(obj=>obj.name.toLowerCase()==cityName.toLowerCase())[0];
       if(!city){
        return alert('city not found in data')
