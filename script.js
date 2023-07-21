@@ -31,7 +31,7 @@ function getData() {
       }
 
       document.querySelector(".weather-city").innerHTML=city.name.toString();
-      document.querySelector(".weather-forecast").innerHTML=city.currentWeather.toString();
+      document.querySelector(".weather-forecast p").innerHTML=city.currentWeather.toString();
       document.querySelector(".weather-temperature").innerHTML=city.temperature.toString();
     })
 }

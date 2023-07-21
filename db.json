@@ -3,44 +3,46 @@
         {
             "name": "New York", 
             "currentWeather": "Sunny",
-            "temperature": 76
+            "temperature": "76 Degrees Fahrenheit"
             
         },
         {
             "name": "Miami", 
             "currentWeather": "Cloudy",
-            "temperature": 62
+            "temperature": "62 Degrees Fahrenheit"
             
         },
         {
             "name": "Los Angeles", 
             "currentWeather": "Rainy",
-            "temperature": 58
+            "temperature": "58 Degrees Fahrenheit"
         },
         {
             "name": "Chicago", 
             "currentWeather": "Snowing",
-            "temperature": 30
+            "temperature": "28 Degrees Fahrenheit"
         },
         {
             "name": "Atlanta", 
             "currentWeather": "Thunderstorm",
-            "temperature": 40
+            "temperature": "40 Degrees Fahrenheit"
+            
         },
         {
             "name": "Seoul", 
             "currentWeather": "Cloudy",
-            "temperature": 54
+            "temperature": "54 Degrees Fahrenheit"
+            
         },
         {
             "name": "Tokyo", 
             "currentWeather": "Partly Cloudy",
-            "temperature":58
+            "temperature": "62 Degrees Fahrenheit"
         },
         {
             "name": "Tustin", 
             "currentWeather": "Hail",
-            "temperature": 42
+            "temperature": "42 Degrees Fahrenheit"
         }
     ]
 }
