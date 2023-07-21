@@ -31,26 +31,16 @@ input {
     padding: 0.3rem; 
     border-radius: 5px;
 }
-.weather-search {
-    position: relative;
-}
+
 
 input::placeholder {
-    color:fff;
+    color:#070000;
 
 }
 .weather-units span {
     cursor:pointer;
 }
 
-.weather-search i {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    font-size: 12px;
-    color:#fafafa;
-
-}
 
 .weather-units span:first-child {
     margin-right: 0.8rem;
@@ -67,9 +57,10 @@ input::placeholder {
 }
 
 .weather-forecast {
-    background: #1ec7f1;
+    text-align: center;
+    background: #03bceb;
     display: inline-block;
-    padding: 0.8rem;
+    padding: 1rem;
     border-radius: 20px;
 }
 
@@ -89,4 +80,10 @@ input::placeholder {
 .weather-city {
     text-align: center;
     font-size: 50px;
+}
+
+.weather-search {
+    position: fixed;
+    left: 50%;
+    padding: 0.5rem;
 }
