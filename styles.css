@@ -55,13 +55,15 @@ input::placeholder {
 .weather-units span:first-child {
     margin-right: 0.8rem;
 }
-.weather-body {
+.weather-max-min {
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 6rem;
+    
 }
 .weather-date-time {
-    margin-top: 4rem;
-    font-size: 22px;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 40px;
 }
 
 .weather-forecast {
@@ -74,4 +76,17 @@ input::placeholder {
 .weather-icon img {
     width: 95px;
 
+}
+.weather-info {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.weather-humidity {
+    text-align: center;
+}
+
+.weather-city {
+    text-align: center;
+    font-size: 50px;
 }
