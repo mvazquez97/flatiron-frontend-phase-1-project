@@ -3,8 +3,8 @@
         {
             "name": "New York", 
             "currentWeather": "Sunny",
-            "temperature": 76,
-            "date": "Monday July 13, 2020"
+            "temperature": 76
+            
         },
         {
             "name": "Miami", 
