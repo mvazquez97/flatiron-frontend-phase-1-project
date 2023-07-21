@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(162, 202, 16);
+    background-color: rgb(46, 211, 189);
 }
 * {
     margin :0;
@@ -62,4 +62,16 @@ input::placeholder {
 .weather-date-time {
     margin-top: 4rem;
     font-size: 22px;
+}
+
+.weather-forecast {
+    background: #1ec7f1;
+    display: inline-block;
+    padding: 0.8rem;
+    border-radius: 20px;
+}
+
+.weather-icon img {
+    width: 95px;
+
 }
