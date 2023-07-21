@@ -60,5 +60,6 @@ input::placeholder {
     margin-top: 5rem;
 }
 .weather-date-time {
-    
+    margin-top: 4rem;
+    font-size: 22px;
 }
