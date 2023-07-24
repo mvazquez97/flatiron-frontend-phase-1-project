@@ -32,3 +32,6 @@
 1. Type city name in search box.
 2. Click search button.
 3. Temperature in Fahrenheit will be shown.
+
+---
+Special thanks to Flatiron coaches and instructors for their help along the way.
