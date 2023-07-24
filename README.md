@@ -25,3 +25,10 @@
 2. Clone the repository to your local environment.
 3. Navigate inside the cloned repository and open file.
 4. Type "explorer.exe index.html" on Windows, "open index.html" on Mac.
+---
+
+## How to Use
+
+1. Type city name in search box.
+2. Click search button.
+3. Temperature in Fahrenheit will be shown.
