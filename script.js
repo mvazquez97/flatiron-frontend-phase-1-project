@@ -1,23 +1,34 @@
 
 
-let cityName=null;
+//let cityName=null;
 
 
 //getting city name from input
-let inputElement=document.querySelector('.weather-search-form');
-inputElement.addEventListener('input',handleTextChange);
-function handleTextChange(event){
-  cityName=event.target.value
-  console.log(cityName)
-}
+// let inputElement=document.querySelector('.weather-search-form');
+// inputElement.addEventListener('input',handleTextChange);
+// function handleTextChange(event){
+//   cityName=event.target.value
+//   console.log(cityName)
+// }
 
-// adds event listener for search button click
- let searchBtn = document.querySelector(".search-button")
- searchBtn.addEventListener("click", getData);
+// // adds event listener for search button click
+//  let searchBtn = document.querySelector(".search-button")
+//  searchBtn.addEventListener("click", getData);
 
 // alerts when data does not match db.json
 
-function getData() {
+let weatherSearch = document.querySelector('.weather-search')
+weatherSearch.addEventListener("submit", handleFormSubmit)
+
+function handleFormSubmit(event) {
+  event.preventDefault()
+  let inputElement=document.querySelector('.weather-search-form');
+  let cityName = inputElement.value
+  getData(cityName)
+  event.target.reset()
+}
+ 
+function getData(cityName) {
   if(!cityName){
     return alert('please enter city name')
   }
