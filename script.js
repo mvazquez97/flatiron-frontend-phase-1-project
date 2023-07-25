@@ -5,11 +5,11 @@ let cityName=null;
 
 //getting city name from input
 let inputElement=document.querySelector('.weather-search-form');
-inputElement.addEventListener('change',handleTextChange);
+inputElement.addEventListener('input',handleTextChange);
 function handleTextChange(event){
-cityName=event.target.value
+  cityName=event.target.value
+  console.log(cityName)
 }
-
 
 // adds event listener for search button click
  let searchBtn = document.querySelector(".search-button")
