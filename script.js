@@ -26,8 +26,17 @@ function handleFormSubmit(event) {
   let cityName = inputElement.value
   getData(cityName)
   event.target.reset()
+
 }
- 
+
+
+let cityDropdown = document.querySelector('#cityDropdown')
+ cityDropdown.addEventListener('change', function() {
+  console.log(cityDropdown.value);
+ } )
+
+
+
 function getData(cityName) {
   if(!cityName){
     return alert('please enter city name')

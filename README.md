@@ -25,6 +25,7 @@
 2. Clone the repository to your local environment.
 3. Navigate inside the cloned repository and open file.
 4. Type "explorer.exe index.html" on Windows, "open index.html" on Mac.
+5. Install json server with "npm install -g json-server". Run json server with "json-server --watch db.json"
 ---
 
 ## How to Use
