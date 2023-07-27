@@ -33,6 +33,8 @@ function handleFormSubmit(event) {
 let cityDropdown = document.querySelector('#cityDropdown')
  cityDropdown.addEventListener('change', function() {
   console.log(cityDropdown.value);
+  getData(cityDropdown.value)
+  cityDropdown.value=""
  } )
 
 
